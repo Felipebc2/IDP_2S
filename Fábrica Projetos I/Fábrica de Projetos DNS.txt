@@ -1,0 +1,38 @@
+O Que é servidor dns?: Os servidores DNS convertem solicitações de nomes em endereços IP, controlando qual servidor um usuário final alcançará quando digitar um nome de domínio no navegador da web
+
+Qual é a estrutura hierárquica DNS?: O DNS possui um domínio raiz (root domain . ), localizado no topo da hierarquia de domínios, logo depois vem os servidores DNS de domínio de alto nível e em seguida os servidores DNS com autoridade.
+
+O que é zonas DNS?: Uma zona de DNS é um espaço administrativo que permite um controle granular dos componentes do DNS, como os nameservers autoritativos.
+
+O que é o processo de resolução de nomes em DNS?: Quando um usuário insere um URL em seu navegador da Web, o DNS trabalha para conectar esse URL ao endereço IP do servidor real.
+
+O que é Cache DNS?: Ele consiste em unidades de informação comprimidas chamadas registros de recursos.
+
+Switches e Hubs: Enquanto um hub apenas conecta vários dispositivos ethernet em um único segmento, o switch permite endereça individualmente o tráfego e permite dividir o tráfego em várias VLANs.
+
+Roteador: Ele envia informações da Internet a dispositivos pessoais, como computadores, smartphones e tablets
+
+Access Point (AP): Um ponto de acesso é um termo usado para um dispositivo de rede que conecta redes com e sem fio.
+
+Modems: É um dispositivo que troca informações entre o mundo externo ou a rede de longa distância (WAN) e a sua casa.
+
+Principais protocolos de roteamento (OSPF, BGP, RIP):
+	OSPF: é um protocolo de roteamento do tipo link-state, que envia avisos sobre o estado da conexão (link-state advertisements, LSA) a todos os outros roteadores em uma mesma área hierárquica.
+	BGP: faz com que a Internet funcione por meio de roteamento de dados
+	RIP: aqueles que priorizam a contagem de roteadores até o destino, conhecidos como protocolos de vetor distância
+
+Endereçamento e atribuição de IP's: Seu endereço IP é atribuído ao seu dispositivo pelo ISP. Sua atividade na Internet passa pelo ISP, e volta para você, por meio do endereço IP. Como é ele quem concede seu acesso à Internet, cabe a ele atribuir um endereço IP ao seu dispositivo.
+
+Tabela de Roteamento: Uma tabela de roteamento é um registro dentro de cada roteador. Ela informa qual caminho um pacote deve seguir para cada rede de destino. Cada tabela contém uma lista de destinos com prefixos de endereços IP para os quais o pacote pode ser encaminhado.
+	Metricas de Roteamento: Métricas de roteamento são métricas utilizada por um roteador para tomar decisões de roteamento. 
+	Rotas estáticas e Dinâmicas: Um administrador de rede configura manualmente as tabelas de roteamento estático. Isso essencialmente define as rotas que os pacotes de dados seguem pela rede, a menos que o administrador atualize manualmente as tabelas. As tabelas de roteamento dinâmico são atualizadas automaticamente.
+
+Algoritmos de roteamento: Os algoritmos de roteamento são programas de software que implementam diferentes protocolos de roteamento.
+
+Distance-vector routing: O protocolo de roteamento de vetor de distância é aplicado para atribuir a melhor e a rota mais curta para os dados. Neste protocolo de rede, a distância refere-se à distância (vetor) entre os nós vizinhos, e o roteamento refere-se à rota estabelecida.
+
+link-state routing: Link state routing is the second family of routing protocols. While distance-vector routers use a distributed algorithm to compute their routing tables, link-state routing uses link-state routers to exchange messages that allow each router to learn the entire network topology.
+
+Path-vector routing: Um protocolo de roteamento de vetor de caminho é um protocolo de roteamento de rede que mantém as informações do caminho que são atualizadas dinamicamente. As atualizações que percorreram a rede e retornaram ao mesmo nó são facilmente detectadas e descartadas.
+
+Flood routing: O Flooding ocorre quando um roteador usa um algoritmo de roteamento não adaptativo para enviar um pacote de entrada para todos os enlaces de saída, exceto o nó no qual o pacote chegou.
