@@ -1,0 +1,17 @@
+1. Bubble Sort:
+- O Bubble Sort é um algoritmo de ordenação simples que compara repetidamente cada par de elementos adjacentes e os troca se estiverem na ordem errada.
+- Complexidade no pior caso: O(n^2) - onde "n" é o número de elementos no vetor. Isso ocorre quando o vetor está completamente desordenado e requer várias passagens para ordenar.
+- Complexidade no melhor caso: O(n) - quando o vetor já está ordenado, mas o Bubble Sort ainda precisa percorrer o vetor uma vez para verificar que está ordenado.
+
+2. Selection Sort:
+- O Selection Sort é outro algoritmo simples que divide o vetor em duas partes: uma parte ordenada e outra não ordenada. Ele encontra repetidamente o menor elemento na parte não ordenada e o move para a parte ordenada.
+- Complexidade no pior caso: O(n^2) - ocorre quando o vetor está completamente desordenado e requer várias comparações e trocas.
+- Complexidade no melhor caso: O(n^2) - mesmo que o pior caso, pois mesmo que o vetor esteja ordenado, o algoritmo ainda precisa percorrer todo o vetor para cada elemento.
+
+3. Heap Sort:
+- Heap Sort é um algoritmo de ordenação baseado em árvore de heap. Ele primeiro transforma o vetor em uma estrutura de dados de heap, depois repete a remoção do elemento máximo (ou mínimo) e reconstrói a heap até que o vetor esteja ordenado.
+- Complexidade no pior caso: O(n log n) - onde "n" é o número de elementos no vetor. Isso ocorre porque a inserção de um novo elemento na heap tem complexidade O(log n), e são necessárias n inserções.
+- Complexidade no melhor caso: O(n log n) - mesmo que o pior caso, pois o algoritmo sempre precisa construir a heap inicialmente.
+
+4. Resumo
+- O Bubble Sort e o Selection Sort têm complexidade quadrática, o que os torna menos eficientes para grandes conjuntos de dados. Já o Heap Sort tem complexidade O(n log n), o que o torna mais eficiente, especialmente para grandes conjuntos de dados. Porém, é importante observar que, embora o Heap Sort tenha melhor desempenho em termos de complexidade, pode ter uma constante oculta maior que os outros dois algoritmos, o que significa que em conjuntos de dados menores, ele pode ser mais lento na prática.

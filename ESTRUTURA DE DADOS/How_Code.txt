@@ -1,0 +1,30 @@
+// How code in Windows //
+
+// Install MinGW
+    --> "https://sourceforge.net/projects/mingw/""
+// Set up the MinGW
+    1.0. Click Install
+        1.1. Click Continue and wait for the download
+            1.2. Click Continue
+    2. Select "mingw02-gcc-g++" and "mingw02-base"
+        2.1 Click on the top left button called "Installation" and "Apply Changes"
+            2.2 Click on Apply on the new box and wait, after the dowload close
+    3. Go to the mingw folder on your computer (Where did you install) and open
+        3.1 Open the Bin folder and copy the pathfile
+    4. Search on the Windows Search Box "environment" and click on the "Edit the system environment variables"
+        4.1. Click on the Environment Variables on the bottom right
+            4.2. Click on the "Path"
+                4.3. Click on "New" Box and put the pathfile you have copied
+    5. Click "Ok" on everything
+    6. Open CMD searching on the Windows Search Box
+        6.1. Type "gcc --version", If there is no error, continue...
+    7. Open Vscode and install the extension "Code Runner" by Jun Han
+    8. Restart your computer
+
+// For run in the Terminal
+    1.0. Open Settings (Ctrl+,)
+        1.1. Go to "Extesions" and find "Run Code Configuration"
+            1.2. Find the checkbox "Run in Terminal" and check it
+    2.0. Restart de Vscode
+        // Extra: Save Before Run
+            3.0. In the same location, find the checkbox "Safe File Before Run" and check it.

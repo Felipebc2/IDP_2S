@@ -1,0 +1,20 @@
+1. Busca Sequencial:
+
+- A busca sequencial é um método simples em que cada elemento do vetor é examinado sequencialmente até que o elemento desejado seja encontrado ou todo o vetor seja percorrido.
+- Complexidade no pior caso: O(n) - onde "n" é o número de elementos no vetor. Isso ocorre quando o elemento procurado é o último no vetor ou não está presente.
+- Complexidade no melhor caso: O(1) - quando o elemento procurado está na primeira posição do vetor.
+
+2. Busca Binária:
+- A busca binária é um algoritmo eficiente que divide repetidamente o intervalo de busca pela metade até que o elemento seja encontrado.
+
+- Requisitos para a busca binária: o vetor deve estar ordenado. Se não estiver ordenado, a busca binária não funcionará corretamente.
+- Complexidade no pior caso: O(log n) - onde "n" é o número de elementos no vetor. Isso ocorre quando o elemento procurado não está presente ou está no último nível da árvore de busca binária.
+- Complexidade no melhor caso: O(1) - quando o elemento procurado está na posição central do vetor.
+
+3. Ambas as buscas são possíveis em vetores desordenados:
+
+- A busca sequencial pode ser realizada em qualquer vetor, independentemente de estar ordenado ou não. No entanto, como mencionado, sua complexidade pode ser alta em comparação com a busca binária, especialmente para grandes conjuntos de dados.
+- Já a busca binária requer que o vetor esteja ordenado para funcionar corretamente. Se o vetor não estiver ordenado, a busca binária não produzirá resultados confiáveis.
+
+4. Resumo:
+- Enquanto a busca sequencial é mais simples e pode ser usada em vetores desordenados, a busca binária é mais eficiente, mas requer que o vetor esteja ordenado. A escolha entre elas depende das características do vetor e dos requisitos de desempenho do seu aplicativo.

@@ -1,0 +1,22 @@
+Principais pontos sobre um TAD:
+
+1. Encapsulação e Ocultação de Detalhes:
+
+Um TAD encapsula os dados subjacentes e oculta sua implementação específica. Isso significa que as partes do programa que utilizam o TAD não precisam saber como os dados são armazenados ou manipulados internamente.
+A ideia é que apenas as operações definidas para o TAD sejam acessíveis externamente, protegendo assim os dados de modificações ou acessos indevidos.
+
+2. Operações sobre um TAD:
+
+As operações definidas para um TAD são acessadas através de uma interface pública. Isso pode incluir funções ou métodos que permitem realizar operações específicas nos dados encapsulados.
+Por exemplo, um TAD para uma lista pode incluir operações como inserir um elemento, remover um elemento ou verificar se a lista está vazia.
+
+3. Uso em Outras Partes do Programa:
+
+Uma vez definido um TAD e suas operações, ele pode ser usado em várias partes do programa, desde que essas partes tenham acesso à sua interface pública.
+Por exemplo, uma lista implementada como um TAD pode ser usada em diferentes partes do programa para armazenar e manipular dados, sem que essas partes precisem conhecer os detalhes internos da implementação da lista.
+
+4. Impacto da Mudança na Implementação:
+
+Uma das vantagens de usar TADs é que, se a implementação subjacente de um TAD precisar ser alterada (por exemplo, para melhorar o desempenho ou corrigir erros), isso geralmente não afetará o uso do TAD em outras partes do programa, desde que a interface pública permaneça a mesma.
+Isso significa que você pode alterar a implementação de um TAD sem precisar modificar o código que usa o TAD, desde que a interface pública permaneça consistente.
+No entanto, mudanças na interface pública do TAD podem exigir modificações em todas as partes do programa que o utilizam.
